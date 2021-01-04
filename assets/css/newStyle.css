@@ -1,0 +1,9 @@
+.wid {
+  width: 200% !important;
+}
+
+.select-single .nice-select .list {
+  width: 100%;
+  height: 200px;
+  overflow-y: scroll;
+}

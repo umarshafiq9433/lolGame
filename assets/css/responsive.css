@@ -1,0 +1,661 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1500px) and (max-width: 1700px) { 
+    .rank-list ul li a {
+        width: 115px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+    .main-menu ul li {
+        margin: 0px 18px;
+    }
+    
+    
+    
+    .account-sidebar-main {
+        padding: 15px 15px;
+    }
+    .common-section-bg {
+        padding: 40px 10px 0px 10px;
+    }
+    .check-list label {
+        font-size: 16px;
+    }
+    .rank-list ul li a {
+        width: 105px;
+        font-size: 16px;
+    }
+    .side-common-title span {
+        font-size: 20px;
+    }
+    .side-common-title a {
+        font-size: 15px;
+    }
+    
+    .acount-content-main {
+        padding: 15px 15px;
+    }
+    .account-single .list-text ul li span {
+        font-size: 20px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-btn {
+        margin-left: 20px;
+    }
+    .header-btn a {
+        padding: 20px 40px;
+    }
+    .main-menu ul li {
+        margin: 0px 8px;
+    }
+    .feature-single.mb-180 {
+        margin-bottom: 60px;
+    }
+    .demo-text h2 {
+        font-size: 42px;
+        margin-bottom: 25px;
+    }
+    .demo-text p br {
+        display: none;
+    }
+    .inner-overlay {
+        padding: 0px 40px;
+    }
+    .slick-active.slick-center .single-test {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .single-test {
+        padding: 75px 20px;
+    }
+    .footer-widget p {
+        padding-right: 30px;
+    }
+    
+    .custom-pad-70 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .custom-mar-70 {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    
+    
+    
+    .account-sidebar-main {
+        padding: 15px 15px;
+    }
+    .common-section-bg {
+        padding: 40px 10px 0px 10px;
+    }
+    .check-list label {
+        font-size: 16px;
+    }
+    .rank-list ul li a {
+        width: 105px;
+        font-size: 16px;
+    }
+    .side-common-title span {
+        font-size: 20px;
+    }
+    .side-common-title a {
+        font-size: 15px;
+    }
+    
+    .acount-content-main {
+        padding: 15px 15px;
+    }
+    .account-single .list-text ul li span {
+        font-size: 20px;
+    }
+    
+    /* boosting page  start */
+    .banner-link-single {
+        border-right: 0px;
+    }
+    .rank-single {
+        padding: 40px 10px;
+    }
+    .rank-content-main {
+        margin-left: 0px;
+    }
+    .select-single .nice-select {
+        padding: 0px 10px;
+    }
+    ul.price li span {
+        font-size: 26px;
+    }
+    ul.price li a {
+        font-size: 18px;
+    }
+    .feature-inner-single {
+        padding-bottom: 30px;
+    }
+    .feature-inner-single br {
+        display: none;
+    }
+    .normal-games-wrapper h4 {
+        font-size: 23px;
+    }
+    .normal-games-text input {
+        width: 80px;
+    }
+    .normal-games-text.pl-20 {
+        padding-left: 15px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-text h2 {
+        font-size: 60px;
+    }
+    .hero-text p {
+        font-size: 18px;
+    }
+    .hero-text ul li a span {
+        margin-right: 7px;
+    }
+    .hero-text ul li a {
+        width: 330px;
+    }
+    .feature-single.mb-180 {
+        margin-bottom: 30px;
+    }
+    .about-single.mb-125 {
+        margin-bottom: 50px;
+    }
+    .footer-widget p {
+        padding-right: 0px;
+    }
+    .demo-text {
+        text-align: center;
+    }
+    .slider-active .slick-dots {
+        right: 20px;
+    }
+    
+    .feature-area .section-title.mb-90 {
+        margin-bottom: 0px;
+    }
+    
+    .custom-pad-70 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .custom-mar-70 {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    
+    
+    
+    .rank-list ul li {
+        margin-right: 15px;
+        width: 43%;
+        float: left;
+    }
+    .feature-inner {
+        padding-top: 100px;
+    }
+    .section-title.mb-70 {
+        margin-bottom: 40px;
+    }
+    .faq-area {
+        padding-top: 100px;
+    }
+    .newsletter-area.pt-175 {
+        padding-top: 100px;
+    }
+    .checkout-main {
+        margin-top: 30px;
+        padding: 30px 15px;
+    }
+    .feature-inner-single {
+        margin-bottom: 30px;
+    }
+    .feature-inner-single.mt-45 {
+        margin-top: 30px;
+    }
+    .boosting-banner-select .banner-select .nice-select {
+        display: block;
+    }
+    .checkout-area {
+        padding-top: 90px;
+    }
+    
+    .normal-games {
+        padding-top: 50px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    br {
+        display: none !important;
+    }
+    .hero-single {
+        padding-bottom: 120px;
+        background-image: url(../image/header-bg-small.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .slider-active .slick-dots {
+        bottom: -120px;
+        top: inherit;
+        left: 0px;
+        right: 0px;
+        margin: 0 auto;
+    }
+    .slider-active .slick-dots li {
+        display: inline-block;
+        margin: 0px 6px;
+    }
+    .hero-text h2 {
+        font-size: 32px;
+    }
+    .hero-text p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .hero-text ul li {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .hero-text ul li a {
+        width: 100%;
+        font-size: 15px;
+    }
+    .hero-text ul li a span {
+        margin-right: 3px;
+    }
+    .feature-single.mb-180 {
+        margin-bottom: 30px;
+    }
+    .hero-text .hero-btn {
+        display: block;
+        text-align: center;
+    }
+    .about-single.mb-125,
+    .about-single.mb-30 {
+        margin-bottom: 50px;
+    }
+    .footer-widget p {
+        padding-right: 0px;
+    }
+    
+    .section-title h2,
+    .demo-text h2,
+    .service-single h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .section-title p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .about-area.pt-120 {
+        padding-top: 40px;
+    }
+    .about-single {
+        text-align: center;
+    }
+    .about-icon {
+        float: inherit;
+        display: inline-block;
+    }
+    .about-text {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .about-text p {
+        padding-right: 0px;
+    }
+    .demo-area {
+        padding-top: 80px;
+    }
+    .demo-text h2 {
+        margin-bottom: 20px;
+    }
+    .service-area.pt-120 {
+        padding-top: 60px;
+    }
+    .service-single p {
+        font-size: 18px;
+    }
+    .inner-overlay {
+        padding: 0px 15px;
+        bottom: 25px;
+    }
+    .slick-active.slick-center .single-test,
+    .single-test {
+        transform: scale(1);
+        margin: 0px;
+        padding: 60px 15px;
+        margin-top: 20px;
+    }
+    .copyright-text {
+        text-align: center;
+    }
+    .copyright-social.text-right {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+    .footer-bg {
+        padding-top: 100px;
+    }
+    .newsletter-wrapper form {
+        width: 100%;
+    }
+    .newsletter-wrapper form button {
+        position: inherit;
+        margin-top: 25px;
+        border-radius: 10px;
+        display: block;
+        width: 100%;
+    }
+    .feature-single h4 {
+        font-size: 24px;
+    }
+    .feature-area .section-title.mb-90 {
+        margin-bottom: 0px;
+    }
+    .container-fluid {
+        max-width: 100%;
+    }
+    .custom-pad-70 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .custom-mar-70 {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    
+    
+    
+    .banner-text h2 {
+        font-size: 42px;
+    }
+    .account-sidebar-main {
+        padding: 15px 15px;
+    }
+    .common-section-bg {
+        padding: 40px 10px 0px 10px;
+    }
+    .check-list label {
+        font-size: 16px;
+    }
+    .rank-list ul li a {
+        width: 105px;
+        font-size: 16px;
+    }
+    .side-common-title span {
+        font-size: 20px;
+    }
+    .side-common-title a {
+        font-size: 15px;
+    }
+    
+    .acount-content-main {
+        padding: 15px 15px;
+    }
+    .account-single .list-text ul li span {
+        font-size: 20px;
+    }
+    .account-single .list-text ul {
+        padding: 10px 20px;
+    }
+    .banner-select .nice-select {
+        display: block;
+    }
+    
+    
+    .banner-product-slider {
+        margin: 50px 00px 50px 0px;
+    }
+    .boost-product-slider {
+        margin-top: 50px;
+    }
+    .banner-single-product {
+        margin: 0px 5px;
+    }
+    .banner-single-product h5 a {
+        font-size: 22px;
+    }
+    .banner-single-product span {
+        font-size: 15px;
+    }
+    
+    .banner-product-slider .left,
+    .banner-product-slider .right {
+        top: inherit;
+        bottom: -100px;
+        left: 30%;
+    }
+    .banner-product-slider .right {
+        right: 30%;
+        left: inherit;
+    }
+    
+    
+    /*boosting page start*/
+    .rank-content {
+        display: inherit;
+        min-height: 420px;
+    }
+    .rank-single {
+        padding: 30px 15px 0px 15px;
+    }
+    .rank-single.large {
+        min-height: 600px;
+    }
+    .rank-content-img {
+        text-align: left;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .rank-content-img h4 {
+        display: block;
+        margin-left: 15px;
+    }
+    ul.price li span {
+        font-size: 21px;
+    }
+    ul.price li a {
+        font-size: 18px;
+        padding: 0px 15px;
+    }
+    .feature-inner {
+        padding-top: 100px;
+    }
+    ul.label-wrapper li span,
+    ul.booster-check li {
+        font-size: 16px;
+    }
+    ul.booster-check li i {
+        font-size: 24px;
+        margin-right: 15px;
+    }
+    .checkout-main {
+        margin-top: 30px;
+        padding: 30px 15px;
+    }
+    .section-title.mb-70 {
+        margin-bottom: 40px;
+    }
+    .feature-inner-single {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .faq-area {
+        padding-top: 100px;
+    }
+    .faq-main .btn-link {
+        font-size: 18px;
+        padding: 15px;
+        padding-right: 25px;
+    }
+    .faq-main .btn-link::before {
+        top: 13px;
+        right: 15px;
+    }
+    .faq-main .card-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .newsletter-area.pt-175 {
+        padding-top: 100px;
+    }
+    .rank-content-main {
+        margin-left: 0px;
+    }
+    .select-single {
+        display: inherit;
+    }
+    .select-single .field {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .select-single .nice-select {
+        margin-bottom: 30px;
+    }
+    .rank-single h4 {
+        font-size: 19px;
+        line-height: 1.3;
+    }
+    ul.label-wrapper li input[type="checkbox"] {
+        height: 16px;
+        width: 40px !important;
+    }
+    ul.label-wrapper li input[type="checkbox"]::before {
+        height: 20px;
+        width: 20px;
+    }
+    ul.label-wrapper li input:checked[type="checkbox"]::before {
+        left: 20px;
+    }
+    ul.price li {
+        display: inherit;
+        text-align: center;
+    }
+    ul.price li span {
+        margin-bottom: 15px;
+        display: block;
+    }
+    .boosting-banner-select .boosting-banner-img img {
+        min-width: 80px;
+    }
+    .boosting-banner-select .banner-select .nice-select {
+        width: inherit;
+        width: 100%;
+    }
+    .boosting-banner-select .banner-select .nice-select::after {
+        right: 10px;
+    }
+    .checkout-area {
+        padding-top: 0px;
+    }
+    .net-win .slider-range input,
+    .net-win .slider-range h3 {
+        font-size: 21px;
+    }
+    
+    
+    .placement-rank .rank-content-img h4 {
+        margin-bottom: 10px;
+    }
+    .boosting-banner-select .boosting-banner-img {
+        margin-right: 8px;
+    }
+    
+    
+    .normal-games {
+        padding-top: 50px;
+    }
+    .normal-games-wrapper h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .normal-games-wrapper input {
+        height: 18px;
+        text-align: left;
+    }
+    .normal-games-wrapper h4 span {
+        font-size: 18px;
+        display: block;
+        float: inherit;
+        margin-top: 10px;
+    }
+    .normal-games {
+        padding: 35px 15px;
+    }
+    .normal-games-text.pl-20 {
+        padding-left: 13px;
+    }
+    #slider-range5.ui-slider-horizontal {
+        margin: 0px 20px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+    .hero-text ul li {
+        width: 350px;
+    }
+    .inner-overlay {
+        padding: 0px 25px;
+    }
+    .hero-text .hero-btn {
+        display: inline-block;
+        padding: 21px 60px;
+    }
+    .rank-list ul li a {
+        font-size: 18px;
+        width: 150px;
+    }
+    
+    .banner-product-slider .left,
+    .banner-product-slider .right {
+        left: 36%;
+    }
+    .banner-product-slider .right {
+        right: 36%;
+        left: inherit;
+    }
+    .boosting-banner-select .banner-select .nice-select {
+        width: 280px;
+    }
+    .boosting-banner-select .banner-select .nice-select::after {
+        right: 20px;
+    }
+    .boosting-banner-select .boosting-banner-img {
+        margin-right: 20px;
+    }
+    
+    .normal-games-wrapper h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .normal-games-wrapper h4 span {
+        display: inline-block;
+        float: right;
+        margin-top: 0px;
+    }
+    .normal-games-wrapper input {
+        text-align: right;
+    }
+    
+}
