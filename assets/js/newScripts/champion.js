@@ -24,7 +24,7 @@ $(document).ready(function () {
       v3 = price * 0.1;
     }
     price = price + v1 + v2 + v3;
-    $(".tot3").html(price);
+    $(".tot3").html(price.toFixed(2));
   }
   count();
   $(".tier1").on("change", function () {
