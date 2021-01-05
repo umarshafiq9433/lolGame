@@ -86,10 +86,10 @@
     <script src="assets/js/jquery-ui-slider-range.js"></script>
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/newScripts/netWins.js"></script>
+    <!-- <script src="assets/js/newScripts/netWins.js"></script>
     <script src="assets/js/newScripts/normalWins.js"></script>
     <script src="assets/js/newScripts/placement.js"></script>
-    <script src="assets/js/newScripts/champion.js"></script>
+    <script src="assets/js/newScripts/champion.js"></script> -->
 
     <script>
       //jquery nice select activation

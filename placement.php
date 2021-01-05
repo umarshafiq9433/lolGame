@@ -222,7 +222,7 @@
                   <div class="rank-content">
                     <div class="rank-content-img">
                       <img
-                        src="assets/image/iron.png"
+                        src="assets/image/tiers/Unranked.png"
                         class="img-fluid rankImage"
                         alt=""
                       />
@@ -351,7 +351,7 @@
                 </ul>
                 <ul class="price">
                   <li>
-                    <span>Price : $<span class="tot2"></span></span>
+                    <span>Price : $<span class="tot"></span></span>
                     <a href="#"
                       ><i class="far fa-plus-square"></i> Add coupon code</a
                     >
@@ -851,3 +851,4 @@
       <!-- Newsletter Area End -->
     </main>
 <?php require_once "./footer.php" ?>
+<script src="assets/js/newScripts/placement.js"></script>

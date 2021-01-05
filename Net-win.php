@@ -850,3 +850,4 @@
       <!-- Newsletter Area End -->
     </main>
 <?php require_once "./footer.php" ?>
+<script src="assets/js/newScripts/netWins.js"></script>

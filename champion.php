@@ -472,7 +472,7 @@
                             </ul>
                             <ul class="price">
                                 <li>
-                                    <span>Price : $<span class="tot3"></span></span>
+                                    <span>Price : $<span class="tot"></span></span>
                                     <a href="#"><i class="far fa-plus-square"></i> Add coupon code</a>
                                 </li>
                                 <li class="checkout-btn"><a href="#">Checkout</a></li>
@@ -743,3 +743,4 @@
     </main>
 
     <?php require_once "./footer.php" ?>
+<script src="assets/js/newScripts/champion.js"></script>

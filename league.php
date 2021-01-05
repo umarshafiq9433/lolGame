@@ -223,7 +223,7 @@
                     <div class="rank-content-img">
                       <img
                         src="assets/image/iron.png"
-                        class="img-fluid"
+                        class="img-fluid currentRankImage"
                         alt=""
                       />
                       <h4>Current Rank</h4>
@@ -233,21 +233,21 @@
                         <span>Select your Current Rank</span>
                         <div class="select-single">
                           <div class="field">
-                            <select name="#" id="s1">
-                              <option value="1">Iron</option>
-                              <option value="2">Bronze</option>
-                              <option value="3">Silver</option>
-                              <option value="4">Gold</option>
-                              <option value="5">Platinum</option>
-                              <option value="5">Diamond</option>
+                            <select name="#" id="s1" class="currentRank">
+                              <option value="0" data-name="iron" selected>Iron</option>
+                              <option value="1" data-name="bronze" >Bronze</option>
+                              <option value="2" data-name="silver">Silver</option>
+                              <option value="3" data-name="gold">Gold</option>
+                              <option value="4" data-name="platinum">Platinum</option>
+                              <option value="5" data-name="diamond">Diamond</option>
                             </select>
                           </div>
                           <div class="field">
-                            <select name="#" id="s2">
-                              <option value="1">Division I</option>
+                            <select name="#" id="s2" class="currentDivision">
+                              <option value="3">Division I</option>
                               <option value="2">Division II</option>
-                              <option value="3">Division III</option>
-                              <option value="4">Division IV</option>
+                              <option value="1">Division III</option>
+                              <option value="0">Division IV</option>
                             </select>
                           </div>
                         </div>
@@ -256,25 +256,25 @@
                         <span>Select your current LP and LP gain/win</span>
                         <div class="select-single">
                           <div class="field">
-                            <select name="#" id="s3">
-                              <option value="1">0-20</option>
-                              <option value="2">21-40</option>
-                              <option value="3">41-60</option>
-                              <option value="4">61-80</option>
-                              <option value="5">81-100</option>
+                            <select name="#" id="s3" class="lp">
+                              <option value="0">0-20</option>
+                              <option value="1">21-40</option>
+                              <option value="2">41-60</option>
+                              <option value="3">61-80</option>
+                              <option value="4">81-100</option>
                             </select>
                           </div>
                           <div class="field">
-                            <select name="#" id="s4">
-                              <option value="1">21+ LP</option>
-                              <option value="2">19-21 LP</option>
-                              <option value="3">17-19 LP</option>
-                              <option value="4">15-17 LP</option>
-                              <option value="5">13-15 LP</option>
+                            <select name="#" id="s4" class="lpGain">
+                              <option value="0">21+ LP</option>
+                              <option value="1">19-21 LP</option>
+                              <option value="2">17-19 LP</option>
+                              <option value="3">15-17 LP</option>
+                              <option value="4">13-15 LP</option>
                               <option value="5">11-13 LP</option>
-                              <option value="5">9-11 LP</option>
-                              <option value="5">6-9 LP</option>
-                              <option value="5">1-6 LP</option>
+                              <option value="6">9-11 LP</option>
+                              <option value="7">6-9 LP</option>
+                              <option value="8">1-6 LP</option>
                             </select>
                           </div>
                         </div>
@@ -288,7 +288,7 @@
                     <div class="rank-content-img">
                       <img
                         src="assets/image/Bronze.png"
-                        class="img-fluid"
+                        class="img-fluid desiredRankImage"
                         alt=""
                       />
                       <h4>Desired Rank</h4>
@@ -298,23 +298,23 @@
                         <span>Select your Desired Rank</span>
                         <div class="select-single">
                           <div class="field">
-                            <select name="#" id="s5">
-                              <option value="1">Iron</option>
-                              <option value="2">Bronze</option>
-                              <option value="3">Silver</option>
-                              <option value="4">Gold</option>
-                              <option value="5">Platinum</option>
-                              <option value="5">Diamond</option>
-                              <option value="5">Master</option>
-                              <option value="5">Challenger</option>
+                            <select name="#" id="s5" class="desiredRank">
+                              <option value="0" data-name="iron">Iron</option>
+                              <option value="1" data-name="bronze" selected>Bronze</option>
+                              <option value="2" data-name="silver">Silver</option>
+                              <option value="3" data-name="gold">Gold</option>
+                              <option value="4" data-name="platinum">Platinum</option>
+                              <option value="5" data-name="diamond">Diamond</option>
+                              <option value="6" data-name="master">Master</option>
+                              <option value="7" data-name="challenger">Challenger</option>
                             </select>
                           </div>
                           <div class="field">
-                            <select name="#" id="s6">
-                              <option value="1">Division I</option>
+                            <select name="#" id="s6" class="desiredDivision">
+                              <option value="3">Division I</option>
                               <option value="2">Division II</option>
-                              <option value="3">Division III</option>
-                              <option value="4">Division IV</option>
+                              <option value="1">Division III</option>
+                              <option value="0">Division IV</option>
                             </select>
                           </div>
                         </div>
@@ -323,21 +323,22 @@
                         <span>Select your server and queue</span>
                         <div class="select-single">
                           <div class="field">
-                            <select name="#" id="s3">
-                              <option value="1">Brazil</option>
-                              <option value="2">Brazil</option>
-                              <option value="3">Brazil</option>
-                              <option value="4">Brazil</option>
-                              <option value="5">Brazil</option>
+                            <select name="#" id="s3" class="region">
+                            <option value="0" selected>Europe West</option>
+                              <option value="1">Europe Nordic & East</option>
+                              <option value="2">North America</option>
+                              <option value="3">Russia</option>
+                              <option value="4">Turkey</option>
+                              <option value="5">LAN</option>
+                              <option value="6">LAS</option>
+                              <option value="7">Brazil</option>
+                              <option value="8">Oceania</option>
                             </select>
                           </div>
                           <div class="field">
                             <select name="#" id="s4">
                               <option value="1">Solo/Duo</option>
-                              <option value="2">Solo/Duo</option>
-                              <option value="3">Solo/Duo</option>
-                              <option value="4">Solo/Duo</option>
-                              <option value="5">Solo/Duo</option>
+                              <option value="2">Solo</option>
                             </select>
                           </div>
                         </div>
@@ -366,21 +367,21 @@
                     >
                   </li>
                   <li>
-                    <input type="checkbox" />
+                    <input type="checkbox" class="sc"/>
                     <span
                       >Specific champion
                       <span class="yellow-color">+20%</span></span
                     >
                   </li>
                   <li>
-                    <input type="checkbox" />
+                    <input type="checkbox" class="eo"/>
                     <span
                       >Express order
                       <span class="yellow-color">+15%</span></span
                     >
                   </li>
                   <li>
-                    <input type="checkbox" />
+                    <input type="checkbox" class="sb"/>
                     <span
                       >Stream your boost
                       <span class="yellow-color">+10%</span></span
@@ -401,7 +402,7 @@
                 </ul>
                 <ul class="price">
                   <li>
-                    <span>Price : $17.5</span>
+                    <span>Price : $<span class="tot"></span></span>
                     <a href="#"
                       ><i class="far fa-plus-square"></i> Add coupon code</a
                     >
@@ -905,3 +906,4 @@
       <!-- Newsletter Area End -->
     </main>
     <?php require_once "./footer.php" ?>
+<script src="assets/js/newScripts/league.js"></script>

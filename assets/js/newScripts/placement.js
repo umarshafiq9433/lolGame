@@ -34,12 +34,13 @@ $(document).ready(function () {
       value7 = price1 * 0.1;
     }
     price1 = price1 + value5 + value6 + value7;
-    $(".tot2").html(price1.toFixed(2));
+    $(".tot").html(price1.toFixed(2));
   }
   start2();
 
   $(".netWinsRank2").on("change", function () {
     value = $(this).val();
+    $(".rankImage").attr("src", "assets/image/tiers/" + value + ".png");
     start2();
   });
 
