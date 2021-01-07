@@ -19,7 +19,7 @@
                                     <li><a href="#"><span><i class="far fa-check"></i></span> 24/7 Live support</a></li>
                                 </ul>
                             </div>
-                            <a href="#" class="hero-btn">Order Now</a>
+                            <a href="league.php" class="hero-btn">Order Now</a>
                         </div>
                         <div class="hero-text">
                             <h2>League of Legends <br> Duo Queue Boosting</h2>
@@ -34,7 +34,7 @@
                                     <li><a href="#"><span><i class="far fa-check"></i></span> 24/7 Live support</a></li>
                                 </ul>
                             </div>
-                            <a href="#" class="hero-btn">Order Now</a>
+                            <a href="league.php" class="hero-btn">Order Now</a>
                         </div>
                         <div class="hero-text">
                             <h2>League of Legends <br> Division Boosting</h2>
@@ -49,7 +49,7 @@
                                     <li><a href="#"><span><i class="far fa-check"></i></span> 24/7 Live support</a></li>
                                 </ul>
                             </div>
-                            <a href="#" class="hero-btn">Order Now</a>
+                            <a href="league.php" class="hero-btn">Order Now</a>
                         </div>
                         <div class="hero-text">
                             <h2>League of Legends <br> Net wins Boosting</h2>
@@ -64,7 +64,7 @@
                                     <li><a href="#"><span><i class="far fa-check"></i></span> 24/7 Live support</a></li>
                                 </ul>
                             </div>
-                            <a href="#" class="hero-btn">Order Now</a>
+                            <a href="league.php" class="hero-btn">Order Now</a>
                         </div>
                     </div>
                 </div>

@@ -35,6 +35,17 @@ $(document).ready(function () {
     }
     price = price + val5 + val6 + val7;
     $(".tot").html(price.toFixed(2));
+    $("#review_type").html("Net Win Boosting");
+    $("#review_price").html(price.toFixed(2));
+    let review_boost =
+      $(".netWinsRank option:selected").text() +
+      " " +
+      $(".netWinsDivision option:selected").text() +
+      " " +
+      $("#amount4").val() +
+      " Wins";
+    $("#review_boost").html(review_boost);
+    $("#review_server").html($(".netWinsRegion option:selected").text());
   }
   start();
 

@@ -411,9 +411,9 @@
                     <input type="checkbox" id="A" name="A" value="A" />
                     <label for="A">Duo With Booster</label>
                   </li>
-                  <li class="checkout-btn"><a href="#">Checkout</a></li>
+                  <li class="checkout-btn" data-toggle="modal" data-target="#checkoutModal" class="btn btn-success btn-checkout"><a href="#">Checkout</a></li>
                   <li>
-                    <p>Approximate completion time: 0-1days</p>
+                    <p>Approximate completion time: <i class="days">0</i> days</p>
                   </li>
                 </ul>
                 <div class="bank-card">

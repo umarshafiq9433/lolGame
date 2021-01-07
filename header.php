@@ -9,36 +9,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/logo.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="./assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/ui-range-slider.css" />
-    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="./assets/css/ui-range-slider.css" />
+    <link rel="stylesheet" href="./assets/css/nice-select.css" />
     <link rel="stylesheet" href="./assets/css/default.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/newStyle.css">
+    <link rel="stylesheet" href="./boostpanel/assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/oldStyle.css">
 
 </head>
 
 <body>
-
+<?php require_once "./boostpanel/assets/payment_config.php" ?>
 
     <!-- offcanvas menu -->
     <div class="offcanves-menu">
         <span class="close"><i class="fal fa-times"></i></span>
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="/boostpanel/member/demo.php"> Demo</a></li>
+            <li><a href="boostpanel/member/demo.php"> Demo</a></li>
             <li><a href="league.php">LoL Boosting</a></li>
             <li><a href="acount.php">Accounts </a></li>
         </ul>
         <div class="login-btn">
-            <a href="/boostpanel/login.php">Login</a>
+            <a href="boostpanel/login.php">Login</a>
         </div>
     </div>
     <div class="offcanvas-overlay"></div>
@@ -59,7 +61,7 @@
                             <nav>
                                 <ul>
                                     <li><a href="index.php">Home</a></li>
-                                    <li><a href="/boostpanel/member/demo.php"> Demo</a></li>
+                                    <li><a href="boostpanel/member/demo.php"> Demo</a></li>
                                     <li><a href="league.php">LoL Boosting</a></li>
                                     <li><a href="account.php">Accounts </a></li>
                                     
@@ -67,7 +69,7 @@
                             </nav>
                         </div>
                         <div class="header-btn">
-                            <a href="/boostpanel/login.php">Boost Area</a>
+                            <a href="boostpanel/login.php">Boost Area</a>
                         </div>
                     </div>
 

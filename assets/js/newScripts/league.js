@@ -64,6 +64,22 @@ $(document).ready(function () {
     }
     price = price + val5 + val6 + val7;
     $(".tot").html(price.toFixed(2));
+    $("#review_type").html("League Boosting");
+    $("#review_price").html(price);
+    let review_boost =
+      $(".currentRank option:selected").text() +
+      " " +
+      $(".currentDivision option:selected").text() +
+      " to " +
+      $(".desiredRank option:selected").text() +
+      " " +
+      $(".desiredDivision option:selected").text();
+    $("#review_boost").html(review_boost);
+    $("#review_server").html($(".region option:selected").text());
+    $(".days").html(desired - current);
+    if (desired - current == 21) {
+      $(".days").html("30");
+    }
   }
   count();
   $(".currentRank").on("change", function () {

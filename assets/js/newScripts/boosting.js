@@ -65,6 +65,22 @@ $(document).ready(function () {
     price = price + val5 + val6 + val7;
     price = price * 1.4;
     $(".tot").html(price.toFixed(2));
+    $("#review_type").html("Duo Queue Boosting");
+    $("#review_price").html(price);
+    $(".days").html(desired - current);
+    if (desired - current == 21) {
+      $(".days").html("30");
+    }
+    let review_boost =
+      $(".currentRank option:selected").text() +
+      " " +
+      $(".currentDivision option:selected").text() +
+      " to " +
+      $(".desiredRank option:selected").text() +
+      " " +
+      $(".desiredDivision option:selected").text();
+    $("#review_boost").html(review_boost);
+    $("#review_server").html($(".region option:selected").text());
   }
   count();
   $(".currentRank").on("change", function () {

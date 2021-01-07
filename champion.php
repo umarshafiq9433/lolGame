@@ -214,7 +214,7 @@
                                                 </select>
                                                 </div>
                                                 <div class="field">
-                                                <select name="#" id="s3">
+                                                <select name="#" class="champion" id="s3">
                                                         <option value="">Aatrox</option>
                                                         <option value="">Ahri Akali</option>
                                                         <option value="">Alistar</option>
@@ -475,7 +475,7 @@
                                     <span>Price : $<span class="tot"></span></span>
                                     <a href="#"><i class="far fa-plus-square"></i> Add coupon code</a>
                                 </li>
-                                <li class="checkout-btn"><a href="#">Checkout</a></li>
+                                <li class="checkout-btn" data-toggle="modal" data-target="#checkoutModal"><a href="#">Checkout</a></li>
                                 <li>
                                     <p>Approximate completion time: 0-1days</p>
                                 </li>

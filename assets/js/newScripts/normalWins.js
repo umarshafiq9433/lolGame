@@ -19,6 +19,11 @@ $(document).ready(function () {
     }
     price = price + val5 + val6 + val7;
     $(".tot").html(price.toFixed(2));
+    $("#review_type").html("Normal Games Boosting");
+    $("#review_price").html(price.toFixed(2));
+    let review_boost = "Current Rank";
+    $("#review_boost").html(review_boost);
+    $("#review_server").html("All Servers");
   }
   count();
 

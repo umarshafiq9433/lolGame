@@ -222,7 +222,7 @@
                                     <span>Price : $<Span class="tot"></span></span>
                                     <a href="#"><i class="far fa-plus-square"></i> Add coupon code</a>
                                 </li>
-                                <li class="checkout-btn"><a href="#">Checkout</a></li>
+                                <li class="checkout-btn" data-toggle="modal" data-target="#checkoutModal"><a href="#">Checkout</a></li>
                                 <li>
                                     <p>Approximate completion time: 0-1days</p>
                                 </li>

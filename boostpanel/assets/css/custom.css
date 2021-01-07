@@ -1,0 +1,100 @@
+/* PLACE YOU CUSTOM STYLES IN THIS FILE */
+
+input.nk-btn.nk-btn-lg.link-effect-4.ready {
+    border: 1px solid;
+    margin-top: 13PX;
+    padding: 9px 20px;
+}
+span.nk-btn.nk-btn-lg.nk-btn-icon.nk-bg-audio-toggle {
+    display: none;
+}
+.a-herf {
+    color: #fff;
+    position: relative;
+    top: 15px;
+}
+.alert_messagessss {
+    color: white;
+    position: relative;
+    /*background: green;*/
+    display: block;
+    z-index: 9;
+    text-align: center;
+}
+/* Radio Payment */
+
+.radio-container img.radio-image {
+    /*width: 200px;*/
+    max-width: 140px;
+    /*padding: 20px 40px;*/
+    background-color: rgb(26, 35, 58);
+    -webkit-box-shadow: 0px 15px 30px 0px rgba( 16, 146, 147, 0.12);
+    -moz-box-shadow: 0px 15px 30px 0px rgba( 16, 146, 147, 0.12);
+    box-shadow: 0px 15px 30px 0px rgba( 16, 146, 147, 0.12);
+    border-radius: 5px;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 30px;
+}
+div.radio-image {
+    box-shadow: 0px 15px 30px 0px rgba( 16, 146, 147, 0.12);
+    border-radius: 5px;
+    background-color: rgba( 182, 213, 241, 0.8);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 140px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.radio-container .radio-image:hover {
+    transform: scale( 1.03);
+    /*background-color: rgba( 145, 89, 255, .25 );*/
+    background-color: rgb( 237, 247, 255);
+}
+.radio-container .radio-hidden:checked~.radio-image {
+    /*opacity: 0.6;*/
+    transform: scale( 1.1);
+    background-color: rgba( 2, 117, 216, 0.5);
+}
+.radio-container .radio-hidden {
+    position: absolute;
+    visibility: hidden;
+}
+.radio-container {
+    margin: 10px;
+}
+.select-payment {
+    display: flex;
+    padding: 0;
+}
+.select2-results__option {
+    color: #000;
+}
+/* checkout btn */
+
+.btn-checkout {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    transition: all .2s ease;
+}
+.btn-checkout .row {
+    padding: 0 50px;
+}
+.btn-checkout span:first-child {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    padding: 15px 0;
+}
+.btn-checkout i {
+    font-size: 45px;
+}
+.btn-checkout, .btn-checkout:hover, .btn-checkout:active, .btn-checkout:focus {
+    border: 0;
+    outline: 0;
+}

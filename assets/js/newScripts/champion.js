@@ -25,6 +25,18 @@ $(document).ready(function () {
     }
     price = price + v1 + v2 + v3;
     $(".tot").html(price.toFixed(2));
+    $("#review_type").html("Champion Mastery Boosting");
+    $("#review_price").html(price);
+    let review_boost =
+      $(".tier1 option:selected").text() +
+      " to " +
+      $(".tier2 option:selected").text() +
+      " " +
+      " Champion " +
+      $(".champion option:selected").text();
+    $(".desiredDivision option:selected").text();
+    $("#review_boost").html(review_boost);
+    $("#review_server").html($(".tierRegion option:selected").text());
   }
   count();
   $(".tier1").on("change", function () {
