@@ -165,11 +165,11 @@
                     <div class="col-lg-6">
                         <div class="rank-wrapper-main">
                             <div class="rank-single mb-60 large">
-                                <h4 class="d-none d-md-block"><a href="#"><i class="fas fa-play-circle"></i></a> Current and desired tier</h4>
+                                <h4 class="d-none d-md-block"><a href="#"><!--<i class="fas fa-play-circle"></i>--></a> Current and desired tier</h4>
                                 <div class="rank-content">
                                     <div class="rank-content-img">
                                         <img src="assets/image/iron.png" class="img-fluid" alt="">
-                                        <h4><a href="#"><i class="fas fa-play-circle"></i></a> Current and desired tier</h4>
+                                        <h4><a href="#"><!--<i class="fas fa-play-circle"></i>--></a> Current and desired tier</h4>
                                     </div>
                                     <div class="rank-content-main">
                                         <div class="rank-content-select">
@@ -459,10 +459,10 @@
                                     <input type="checkbox" class="sb3">
                                     <span>Stream your boost <span class="yellow-color">+10%</span></span>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <input type="checkbox">
                                     <span>+1 net win at your desired rank</span>
-                                </li>
+                                </li> -->
                             </ul>
                             <ul class="booster-check">
                                 <li><i class="far fa-check"></i> Guaranteed Safety</li>
@@ -473,7 +473,7 @@
                             <ul class="price">
                                 <li>
                                     <span>Price : $<span class="tot"></span></span>
-                                    <a href="#"><i class="far fa-plus-square"></i> Add coupon code</a>
+                                    <!-- <a href="#"><i class="far fa-plus-square"></i> Add coupon code</a> -->
                                 </li>
                                 <li class="checkout-btn" data-toggle="modal" data-target="#checkoutModal"><a href="#">Checkout</a></li>
                                 <li>

@@ -42,6 +42,7 @@ $(document).ready(function () {
     let val5 = 0;
     let val6 = 0;
     let val7 = 0;
+    let val8 = 0;
     if (desired >= 24) {
       desired = 24;
     }
@@ -62,7 +63,10 @@ $(document).ready(function () {
     if ($(".sb").is(":checked")) {
       val7 = price * 0.1;
     }
-    price = price + val5 + val6 + val7;
+    if ($(".duoOn").is(":checked")) {
+      val8 = price * 0.4;
+    }
+    price = price + val5 + val6 + val7 + val8;
     $(".tot").html(price.toFixed(2));
     $("#review_type").html("League Boosting");
     $("#review_price").html(price);
@@ -84,22 +88,22 @@ $(document).ready(function () {
   count();
   $(".currentRank").on("change", function () {
     currentRank = $(this).val();
-    let image = $(".currentRank option:selected").data("name");
-    $(".currentRankImage").attr("src", "assets/image/tiers/" + image + ".png");
+    setCurrentImage();
     count();
   });
   $(".currentDivision").on("change", function () {
     currentDivision = $(this).val();
+    setCurrentImage();
     count();
   });
   $(".desiredRank").on("change", function () {
     desiredRank = $(this).val();
-    let image = $(".desiredRank option:selected").data("name");
-    $(".desiredRankImage").attr("src", "assets/image/tiers/" + image + ".png");
+    setDesiredImage();
     count();
   });
   $(".desiredDivision").on("change", function () {
     desiredDivision = $(this).val();
+    setDesiredImage();
     count();
   });
   $(".lp").on("change", function () {
@@ -125,4 +129,24 @@ $(document).ready(function () {
   $(".sb").on("change", function () {
     count();
   });
+  $(".duoOn").on("change", function () {
+    count();
+  });
+  function setCurrentImage() {
+    let image = $(".currentRank option:selected").text();
+    let div = $(".currentDivision").val();
+    $(".currentRankImage").attr(
+      "src",
+      "assets/image/tiers/" + image + "" + div + ".png"
+    );
+  }
+
+  function setDesiredImage() {
+    let image = $(".desiredRank option:selected").text();
+    let div = $(".desiredDivision").val();
+    $(".desiredRankImage").attr(
+      "src",
+      "assets/image/tiers/" + image + "" + div + ".png"
+    );
+  }
 });

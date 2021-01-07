@@ -336,10 +336,10 @@
                       <span class="yellow-color">+10%</span></span
                     >
                   </li>
-                  <li>
+                  <!-- <li>
                     <input type="checkbox" />
                     <span>+1 net win at your desired rank</span>
-                  </li>
+                  </li> -->
                 </ul>
                 <ul class="booster-check">
                   <li><i class="far fa-check"></i> Guaranteed Safety</li>
@@ -352,9 +352,9 @@
                 <ul class="price">
                   <li>
                     <span>Price : $<span class="tot"></span></span>
-                    <a href="#"
+                    <!-- <a href="#"
                       ><i class="far fa-plus-square"></i> Add coupon code</a
-                    >
+                    > -->
                   </li>
                   <li class="checkout-btn" data-toggle="modal" data-target="#checkoutModal"><a href="#">Checkout</a></li>
                   <li>

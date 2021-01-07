@@ -85,22 +85,22 @@ $(document).ready(function () {
   count();
   $(".currentRank").on("change", function () {
     currentRank = $(this).val();
-    let image = $(".currentRank option:selected").data("name");
-    $(".currentRankImage").attr("src", "assets/image/tiers/" + image + ".png");
+    setCurrentImage();
     count();
   });
   $(".currentDivision").on("change", function () {
     currentDivision = $(this).val();
+    setCurrentImage();
     count();
   });
   $(".desiredRank").on("change", function () {
     desiredRank = $(this).val();
-    let image = $(".desiredRank option:selected").data("name");
-    $(".desiredRankImage").attr("src", "assets/image/tiers/" + image + ".png");
+    setDesiredImage();
     count();
   });
   $(".desiredDivision").on("change", function () {
     desiredDivision = $(this).val();
+    setDesiredImage();
     count();
   });
   $(".lp").on("change", function () {
@@ -126,4 +126,21 @@ $(document).ready(function () {
   $(".sb").on("change", function () {
     count();
   });
+  function setCurrentImage() {
+    let image = $(".currentRank option:selected").text();
+    let div = $(".currentDivision").val();
+    $(".currentRankImage").attr(
+      "src",
+      "assets/image/tiers/" + image + "" + div + ".png"
+    );
+  }
+
+  function setDesiredImage() {
+    let image = $(".desiredRank option:selected").text();
+    let div = $(".desiredDivision").val();
+    $(".desiredRankImage").attr(
+      "src",
+      "assets/image/tiers/" + image + "" + div + ".png"
+    );
+  }
 });
