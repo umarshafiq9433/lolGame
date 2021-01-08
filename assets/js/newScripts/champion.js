@@ -26,7 +26,7 @@ $(document).ready(function () {
     price = price + v1 + v2 + v3;
     $(".tot").html(price.toFixed(2));
     $("#review_type").html("Champion Mastery Boosting");
-    $("#review_price").html(price);
+    $("#review_price").html(price.toFixed(2));
     let review_boost =
       $(".tier1 option:selected").text() +
       " to " +

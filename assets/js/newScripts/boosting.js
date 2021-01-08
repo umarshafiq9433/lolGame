@@ -66,7 +66,7 @@ $(document).ready(function () {
     price = price * 1.4;
     $(".tot").html(price.toFixed(2));
     $("#review_type").html("Duo Queue Boosting");
-    $("#review_price").html(price);
+    $("#review_price").html(price.toFixed(2));
     $(".days").html(desired - current);
     if (desired - current == 21) {
       $(".days").html("30");

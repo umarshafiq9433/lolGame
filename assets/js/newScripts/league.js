@@ -69,7 +69,7 @@ $(document).ready(function () {
     price = price + val5 + val6 + val7 + val8;
     $(".tot").html(price.toFixed(2));
     $("#review_type").html("League Boosting");
-    $("#review_price").html(price);
+    $("#review_price").html(price.toFixed(2));
     let review_boost =
       $(".currentRank option:selected").text() +
       " " +

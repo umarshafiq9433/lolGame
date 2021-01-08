@@ -271,10 +271,10 @@
                               <option value="2">17-19 LP</option>
                               <option value="3">15-17 LP</option>
                               <option value="4">13-15 LP</option>
-                              <option value="5">11-13 LP</option>
+                              <!-- <option value="5">11-13 LP</option>
                               <option value="6">9-11 LP</option>
                               <option value="7">6-9 LP</option>
-                              <option value="8">1-6 LP</option>
+                              <option value="8">1-6 LP</option> -->
                             </select>
                           </div>
                         </div>
@@ -338,7 +338,7 @@
                           <div class="field">
                             <select name="#" id="s4">
                               <option value="1">Solo/Duo</option>
-                              <option value="2">Solo</option>
+                              <option value="2">Flex Queue</option>
                             </select>
                           </div>
                         </div>

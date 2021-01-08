@@ -50,7 +50,12 @@ $(document).ready(function () {
 
   $(".netWinsRank2").on("change", function () {
     value = $(this).val();
-    $(".rankImage").attr("src", "assets/image/tiers/" + value + ".png");
+    setImage();
+    start2();
+  });
+
+  $(".netWinsDivision").on("change", function () {
+    setImage();
     start2();
   });
 
@@ -77,4 +82,15 @@ $(document).ready(function () {
   $(".sb2").on("change", function () {
     start2();
   });
+  function setImage() {
+    let image = $(".netWinsRank2 option:selected").text();
+    let div = $(".netWinsDivision").val();
+    $(".rankImage").attr(
+      "src",
+      "assets/image/tiers/" + image + "" + div + ".png"
+    );
+    if (image == "Unranked") {
+      $(".rankImage").attr("src", "assets/image/tiers/unranked.png");
+    }
+  }
 });

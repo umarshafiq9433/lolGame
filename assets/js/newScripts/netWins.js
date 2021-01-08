@@ -51,7 +51,7 @@ $(document).ready(function () {
 
   $(".netWinsRank").on("change", function () {
     val = $(this).val();
-    $(".rankImage").attr("src", "assets/image/tiers/" + val + ".png");
+    setImage();
     if (val == "master" || val == "grandmaster" || val == "challenger") {
       $(".divi").addClass("d-none");
       $(".ran").addClass("wid");
@@ -65,6 +65,7 @@ $(document).ready(function () {
 
   $(".netWinsDivision").on("change", function () {
     val2 = $(this).val();
+    setImage();
     start();
   });
 
@@ -91,4 +92,12 @@ $(document).ready(function () {
   $(".sb").on("change", function () {
     start();
   });
+  function setImage() {
+    let image = $(".netWinsRank option:selected").text();
+    let div = $(".netWinsDivision").val();
+    $(".rankImage").attr(
+      "src",
+      "assets/image/tiers/" + image + "" + div + ".png"
+    );
+  }
 });
