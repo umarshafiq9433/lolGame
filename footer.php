@@ -85,12 +85,12 @@
 				<div class="modal-body">
 					<div class="row">
 						<div class="col-md-3 col-lg-3 col-xs-12 text-center review-order-border">
-							<p class="review">Review Your Order</p>
-							<span id="review_type" class="boost-type" style="color:white";>Division Boost</span>
-							<small style="display: block; margin-top: 20px;">Desired</small>
-							<p id="review_boost" class="order-review-p">Silver IV 0-20 LP  to Master I</p>
-							<small>Your Server</small>
-							<p id="review_server" class="order-review-p">EUW</p>
+							<p class="review text-dark">Review Your Order</p>
+							<span id="review_type" class="boost-type text-dark" style="color:black";>Division Boost</span>
+							<small style="display: block; margin-top: 20px;" class="text-dark">Desired</small>
+							<p id="review_boost" class="order-review-p text-dark">Silver IV 0-20 LP  to Master I</p>
+							<small class="text-dark">Your Server</small>
+							<p id="review_server" class="order-review-p text-dark">EUW</p>
 							<small>Total Price</small>
 							<p class="total-price order-review-p">
 								<span id="review_price" class="review_price" style="font-size:200%";>1101</span>

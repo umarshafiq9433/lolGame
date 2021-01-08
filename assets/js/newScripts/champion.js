@@ -62,4 +62,13 @@ $(document).ready(function () {
   $(".sb3").on("change", function () {
     count();
   });
+  $(".champion").on("change", function () {
+    $(".championImage").attr(
+      "src",
+      "./assets/image/champions/" +
+        $(".champion option:selected").text() +
+        ".png"
+    );
+    count();
+  });
 });
