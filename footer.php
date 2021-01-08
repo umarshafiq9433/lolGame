@@ -140,19 +140,19 @@
 <div class="row">
 								<div class="col-md-4">
 									<div class="form-group">
-										<label for="lol_account">LoL account</label>
+										<label for="lol_account" class="text-dark">LoL account</label>
 										<input id="lol_account" type="text" class="form-control" placeholder="If solo boost">
 									</div>
 								</div>
 								<div class="col-md-4">
 									<div class="form-group">
-										<label for="lol_password">LoL password</label>
+										<label for="lol_password" class="text-dark">LoL password</label>
 										<input id="lol_password" type="password" class="form-control" placeholder="If solo boost">
 									</div>
 								</div>
 								<div class="col-md-4">
 									<div class="form-group">
-										<label for="lol_summonername">Summoner</label>
+										<label for="lol_summonername" class="text-dark">Summoner</label>
 										<input id="lol_summonername" type="text" class="form-control">
 									</div>
 								</div>
@@ -177,7 +177,7 @@
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<label for="booster_notes">Notes for booster</label>
+										<label for="booster_notes" class="text-dark">Notes for booster</label>
 										<textarea id="booster_notes" class="form-control"></textarea>
 									</div>
 								</div>
