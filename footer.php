@@ -230,14 +230,14 @@
 
     <!-- JS here -->
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/jquery.scrollUp.js"></script>
-    <script src="assets/js/sticky.js"></script>
-    <script src="assets/js/jquery-ui-slider-range.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/jquery.scrollUp.js"></script>
+    <script src="./assets/js/sticky.js"></script>
+    <script src="./assets/js/jquery-ui-slider-range.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/main.js"></script>
     <!-- <script src="assets/js/newScripts/netWins.js"></script>
     <script src="assets/js/newScripts/normalWins.js"></script>
     <script src="assets/js/newScripts/placement.js"></script>

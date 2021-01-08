@@ -851,4 +851,4 @@
       <!-- Newsletter Area End -->
     </main>
 <?php require_once "./footer.php" ?>
-<script src="assets/js/newScripts/placement.js"></script>
+<script src="./assets/js/newScripts/placement.js"></script>

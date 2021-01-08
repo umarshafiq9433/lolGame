@@ -906,4 +906,4 @@
       <!-- Newsletter Area End -->
     </main>
     <?php require_once "./footer.php" ?>
-<script src="assets/js/newScripts/league.js"></script>
+<script src="./assets/js/newScripts/league.js"></script>

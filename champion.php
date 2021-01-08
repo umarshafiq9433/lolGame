@@ -744,4 +744,4 @@
     </main>
 
     <?php require_once "./footer.php" ?>
-<script src="assets/js/newScripts/champion.js"></script>
+<script src="./assets/js/newScripts/champion.js"></script>
