@@ -144,13 +144,14 @@
                        <img src="assets/image/link-pop.png" class="img-fluid" alt="">
                    </div>
                     <div class="banner-select">
-                        <select name="select" id="select11">
-                            <option value="1">Duo queue boosting</option>
-                            <option value="2">Duo queue boosting</option>
-                            <option value="3">Duo queue boosting</option>
-                            <option value="4">Duo queue boosting</option>
-                            <option value="5">Duo queue boosting</option>
-                        </select>
+                    <select name="select" class="mobNav">
+                <option value="1" onclick="document.location.href = 'league.php'">League Boosting</option>
+                <option value="2">Duo queue boosting</option>
+                <option value="3">Net Win boosting</option>
+                <option value="4">Placement boosting</option>
+                <option value="5">Normal Games boosting</option>
+                <option value="5">Champion MAstery boosting</option>
+              </select>
                     </div>
                 </div>
             </div>

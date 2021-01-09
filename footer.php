@@ -328,6 +328,33 @@ function __paymentAIO() {
 
 	}
 </script>
+<script>
+$(document).ready(function(){
+	$(".mobNav").on("change",function(){
+		let v = $(this).val();
+		switch(v){
+			case "1":
+				document.location.href = "league";
+				break;
+			case "2":
+				document.location.href = "boosting";
+				break;
+			case "3":
+				document.location.href = "Net-win";
+				break;
+			case "4":
+				document.location.href = "placement";
+				break;
+			case "5":
+				document.location.href = "normal-games";
+				break;
+			case "6":
+				document.location.href = "champion";
+				break;
+		}
+	})
+})
+</script>
 
    </body>
 </html>

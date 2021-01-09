@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="manifest" href="site.webmanifest">
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
     <link rel="shortcut icon" type="image/x-icon" href="./assets/logo.png">
     <!-- Place favicon.ico in the root directory -->
 
@@ -34,13 +34,13 @@
     <div class="offcanves-menu">
         <span class="close"><i class="fal fa-times"></i></span>
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="boostpanel/member/demo.php"> Demo</a></li>
-            <li><a href="league.php">LoL Boosting</a></li>
-            <li><a href="acount.php">Accounts </a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="boostpanel/member/demo"> Demo</a></li>
+            <li><a href="league">LoL Boosting</a></li>
+            <li><a href="acount">Accounts </a></li>
         </ul>
         <div class="login-btn">
-            <a href="boostpanel/login.php">Login</a>
+            <a href="boostpanel/login">Login</a>
         </div>
     </div>
     <div class="offcanvas-overlay"></div>
@@ -60,16 +60,16 @@
                         <div class="main-menu">
                             <nav>
                                 <ul>
-                                    <li><a href="index.php">Home</a></li>
-                                    <li><a href="boostpanel/member/demo.php"> Demo</a></li>
-                                    <li><a href="league.php">LoL Boosting</a></li>
-                                    <li><a href="account.php">Accounts </a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="boostpanel/member/demo"> Demo</a></li>
+                                    <li><a href="league">LoL Boosting</a></li>
+                                    <li><a href="account">Accounts </a></li>
                                     
                                 </ul>
                             </nav>
                         </div>
                         <div class="header-btn">
-                            <a href="boostpanel/login.php">Boost Area</a>
+                            <a href="boostpanel/login">Boost Area</a>
                         </div>
                     </div>
 
